@@ -1,0 +1,881 @@
+fileFormatVersion: 2
+guid: 2e7ef7e7377aba54a814afa08115652a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1226926512770327121
+    second: noun_flip_2898279_0
+  - first:
+      213: -2208410425690623320
+    second: noun_flip_2898279_1
+  - first:
+      213: 1482839696862111724
+    second: noun_flip_2898279_2
+  - first:
+      213: 2111500740460419880
+    second: noun_flip_2898279_3
+  - first:
+      213: 8028303068305464323
+    second: noun_flip_2898279_4
+  - first:
+      213: -3424909097898118124
+    second: noun_flip_2898279_5
+  - first:
+      213: -6918062192733829448
+    second: noun_flip_2898279_6
+  - first:
+      213: -878944008978409637
+    second: noun_flip_2898279_7
+  - first:
+      213: -4675377101933581689
+    second: noun_flip_2898279_8
+  - first:
+      213: -1639128656459542914
+    second: noun_flip_2898279_9
+  - first:
+      213: -5187697405256474505
+    second: noun_flip_2898279_10
+  - first:
+      213: 932845413467577311
+    second: noun_flip_2898279_11
+  - first:
+      213: -1617163033794238125
+    second: noun_flip_2898279_12
+  - first:
+      213: 684212298147591857
+    second: noun_flip_2898279_13
+  - first:
+      213: -7470400376062421144
+    second: noun_flip_2898279_14
+  - first:
+      213: 3594854983782925846
+    second: noun_flip_2898279_15
+  - first:
+      213: -7137851491751133262
+    second: noun_flip_2898279_16
+  - first:
+      213: 1076203364901023371
+    second: noun_flip_2898279_17
+  - first:
+      213: 5948255530282954523
+    second: noun_flip_2898279_18
+  - first:
+      213: -289286643990980784
+    second: noun_flip_2898279_19
+  - first:
+      213: 7376525336344532628
+    second: noun_flip_2898279_20
+  - first:
+      213: -8978012223287423158
+    second: noun_flip_2898279_21
+  - first:
+      213: -7575775131935546070
+    second: noun_flip_2898279_22
+  - first:
+      213: -4331801282028895157
+    second: noun_flip_2898279_23
+  - first:
+      213: -8731721260003166974
+    second: noun_flip_2898279_24
+  - first:
+      213: -7660479848571138211
+    second: noun_flip_2898279_25
+  - first:
+      213: -373775329690062986
+    second: noun_flip_2898279_26
+  - first:
+      213: -5262525251279075505
+    second: noun_flip_2898279_0
+  - first:
+      213: -593650055763269526
+    second: noun_flip_2898279_1
+  - first:
+      213: 3725051146010985216
+    second: noun_flip_2898279_2
+  - first:
+      213: 4500991294667181282
+    second: noun_flip_2898279_3
+  - first:
+      213: -4203223581319117057
+    second: noun_flip_2898279_4
+  - first:
+      213: 5078609365681754941
+    second: noun_flip_2898279_5
+  - first:
+      213: -8081673114819635043
+    second: noun_flip_2898279_6
+  - first:
+      213: -6269300702255814609
+    second: noun_flip_2898279_7
+  - first:
+      213: 3246891046991357637
+    second: noun_flip_2898279_8
+  - first:
+      213: -6886076950064515645
+    second: noun_flip_2898279_9
+  - first:
+      213: 7312419316478315791
+    second: noun_flip_2898279_10
+  - first:
+      213: -7447257151693200612
+    second: noun_flip_2898279_11
+  - first:
+      213: 7457021073812200734
+    second: noun_flip_2898279_12
+  - first:
+      213: 6353381795903443810
+    second: noun_flip_2898279_13
+  - first:
+      213: 4587377872734410694
+    second: noun_flip_2898279_14
+  - first:
+      213: 6887332552334484715
+    second: noun_flip_2898279_15
+  - first:
+      213: -7218809895268363478
+    second: noun_flip_2898279_16
+  - first:
+      213: -8359003549008201338
+    second: noun_flip_2898279_17
+  - first:
+      213: 6021173083752473068
+    second: noun_flip_2898279_18
+  - first:
+      213: 6126754111673205393
+    second: noun_flip_2898279_19
+  - first:
+      213: 7260740959686716723
+    second: noun_flip_2898279_20
+  - first:
+      213: -7632956426881482425
+    second: noun_flip_2898279_21
+  - first:
+      213: -6193345702124437416
+    second: noun_flip_2898279_22
+  - first:
+      213: -4882267084595475211
+    second: noun_flip_2898279_23
+  - first:
+      213: 4603170304222118595
+    second: noun_flip_2898279_24
+  - first:
+      213: 6165943137553775522
+    second: noun_flip_2898279_25
+  - first:
+      213: 3526518379983082955
+    second: noun_flip_2898279_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 105
+  spriteBorder: {x: 8, y: 104, z: 8, w: 7}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noun_flip_2898279_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 439
+        width: 410
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1522f2fa92be60110800000000000000
+      internalID: 1226926512770327121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 395
+        width: 408
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2f0722b662a51e0800000000000000
+      internalID: -2208410425690623320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 125
+        width: 410
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7605e09da149410800000000000000
+      internalID: 1482839696862111724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b1e1a7cbe8d4d10800000000000000
+      internalID: 2111500740460419880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 68
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c9687da134a6f60800000000000000
+      internalID: 8028303068305464323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41477c742574870d0800000000000000
+      internalID: -3424909097898118124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 68
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b64a04d61b1eff90800000000000000
+      internalID: -6918062192733829448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 68
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b575267a41d5dc3f0800000000000000
+      internalID: -878944008978409637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 68
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ae0480c49bd1fb0800000000000000
+      internalID: -4675377101933581689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 68
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ec092eb25a049e0800000000000000
+      internalID: -1639128656459542914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 63
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770e87d02b89108b0800000000000000
+      internalID: -5187697405256474505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 68
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb561c06f122fc00800000000000000
+      internalID: 932845413467577311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 68
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3592dc2f9ceae89e0800000000000000
+      internalID: -1617163033794238125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 68
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b67a06c57fce7900800000000000000
+      internalID: 684212298147591857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 68
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867dad6107ec35890800000000000000
+      internalID: -7470400376062421144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_15
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6168c67bf8d73e130800000000000000
+      internalID: 3594854983782925846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 42
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf7eaed2e141fc90800000000000000
+      internalID: -7137851491751133262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 42
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e610722417fee00800000000000000
+      internalID: 1076203364901023371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 42
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa4cbb3e27c8250800000000000000
+      internalID: 5948255530282954523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 42
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05717aa745f3cfbf0800000000000000
+      internalID: -289286643990980784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 42
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4961c7df5beae5660800000000000000
+      internalID: 7376525336344532628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 42
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f86d15371b76380800000000000000
+      internalID: -8978012223287423158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 42
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a256ebad7a07dd690800000000000000
+      internalID: -7575775131935546070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_23
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 37
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4406135fa952e3c0800000000000000
+      internalID: -4331801282028895157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 42
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f8c3d6c1b2d680800000000000000
+      internalID: -8731721260003166974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 42
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f01e82a2280b590800000000000000
+      internalID: -7660479848571138211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun_flip_2898279_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 42
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe408615510daf0800000000000000
+      internalID: -373775329690062986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
