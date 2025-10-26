@@ -80,20 +80,19 @@ void AddClickListener(InputField field)
         c.AddComponent<CanvasScaler>().uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
         c.AddComponent<GraphicRaycaster>();
 
-        // Background panel
+        // Background panel matching game's light theme
         panel = new GameObject("Panel");
         panel.transform.SetParent(canvas.transform, false);
         Image bg = panel.AddComponent<Image>();
-        bg.color = new Color(0.85f, 0.83f, 0.92f, 0.95f);
+        // Light beige/cream to match game background
+        bg.color = new Color(0.95f, 0.94f, 0.90f, 0.98f);
         RectTransform rect = panel.GetComponent<RectTransform>();
-        rect.anchorMin = new Vector2(0.5f, 0.5f);
-        rect.anchorMax = new Vector2(0.5f, 0.5f);
-        // Make the keyboard panel larger and anchored to the bottom center
+        // Make the keyboard panel anchored to the bottom center
         rect.anchorMin = new Vector2(0.5f, 0);
         rect.anchorMax = new Vector2(0.5f, 0);
         rect.pivot = new Vector2(0.5f, 0);
-        rect.sizeDelta = new Vector2(700, 360); // wide enough to show everything
-        rect.anchoredPosition = new Vector2(0, 50); // sits slightly above bottom edge
+        rect.sizeDelta = new Vector2(720, 220); // Proper size to fit all keys
+        rect.anchoredPosition = new Vector2(0, 0); // sits at bottom edge
 
         // Create a container for all keyboard content
         GameObject content = new GameObject("KeyboardContent");
@@ -104,58 +103,77 @@ void AddClickListener(InputField field)
         contentRect.offsetMin = Vector2.zero;
         contentRect.offsetMax = Vector2.zero;
 
-        // Header text
+        // Header text matching game theme
         GameObject headerObj = new GameObject("Header");    
         headerObj.transform.SetParent(content.transform, false);
         capsStatus = headerObj.AddComponent<Text>();
         capsStatus.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        capsStatus.fontSize = 36;
+        capsStatus.fontSize = 14;
+        capsStatus.fontStyle = FontStyle.Bold;
         capsStatus.alignment = TextAnchor.MiddleCenter;
+        capsStatus.color = new Color(0.3f, 0.3f, 0.35f, 1f); // Dark gray text for light background
         RectTransform headerRect = capsStatus.GetComponent<RectTransform>();
         headerRect.anchorMin = new Vector2(0.5f, 1);
         headerRect.anchorMax = new Vector2(0.5f, 1);
         headerRect.pivot = new Vector2(0.5f, 1);
-        headerRect.sizeDelta = new Vector2(800, 60);
-        headerRect.anchoredPosition = new Vector2(0, -20);
+        headerRect.sizeDelta = new Vector2(500, 20);
+        headerRect.anchoredPosition = new Vector2(0, -5);
 
         // Close button
-        GameObject close = CreateButton("X", Vector2.zero, content.transform, 60);
+        GameObject close = CreateButton("×", Vector2.zero, content.transform, 25.0f);
         RectTransform closeRect = close.GetComponent<RectTransform>();
         closeRect.anchorMin = new Vector2(1, 1);
         closeRect.anchorMax = new Vector2(1, 1);
         closeRect.pivot = new Vector2(1, 1);
-        closeRect.anchoredPosition = new Vector2(-20, -20);
+        closeRect.anchoredPosition = new Vector2(-5, -8);
         close.GetComponent<Button>().onClick.AddListener(HideKeyboard);
 
-        // Grid of keys
+        // Grid of keys with compact spacing
         GameObject gridObj = new GameObject("Grid");
         gridObj.transform.SetParent(content.transform, false);
         RectTransform gRect = gridObj.AddComponent<RectTransform>();
         gRect.anchorMin = new Vector2(0.5f, 0.5f);
         gRect.anchorMax = new Vector2(0.5f, 0.5f);
         gRect.pivot = new Vector2(0.5f, 0.5f);
-        gRect.sizeDelta = new Vector2(760, 260);
-        gRect.anchoredPosition = new Vector2(0, -60);
+        gRect.sizeDelta = new Vector2(680, 155);
+        gRect.anchoredPosition = new Vector2(0, -20);
         GridLayoutGroup grid = gridObj.AddComponent<GridLayoutGroup>();
-        grid.cellSize = new Vector2(60, 60);
-        grid.spacing = new Vector2(5, 5);
+        grid.cellSize = new Vector2(64, 36); // Optimized key size
+        grid.spacing = new Vector2(4, 3); // Tight spacing
         grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
         grid.constraintCount = 10;
 
-        // Keys
+        // Keys - cleaner layout with essential keys only
         string[] rows = {
             "0 1 2 3 4 5 6 7 8 9",
             "Q W E R T Y U I O P",
             "A S D F G H J K L DEL",
-            "Z X C V B N M @ . - _ CAPS"
+            "Z X C V B N M @ . CAPS"
         };
         foreach (string row in rows)
         {
             foreach (string k in row.Split(' '))
             {
                 if (string.IsNullOrWhiteSpace(k)) continue;
-                GameObject key = CreateButton(k, Vector2.zero, gridObj.transform, 70);
-                key.GetComponent<Button>().onClick.AddListener(() => OnKeyPress(k));
+                GameObject key = CreateButton(k, Vector2.zero, gridObj.transform, 64.0f);
+                Button btn = key.GetComponent<Button>();
+                
+                // Style special keys differently to match light theme
+                if (k == "CAPS" || k == "DEL")
+                {
+                    Image img = key.GetComponent<Image>();
+                    img.color = new Color(0.5f, 0.6f, 0.8f, 1f); // Light blue for special keys
+                    Text txt = key.GetComponentInChildren<Text>();
+                    if (txt != null) txt.color = Color.white;
+                    
+                    ColorBlock cb = btn.colors;
+                    cb.normalColor = new Color(0.5f, 0.6f, 0.8f, 1f);
+                    cb.highlightedColor = new Color(0.6f, 0.7f, 0.9f, 1f);
+                    cb.pressedColor = new Color(0.4f, 0.5f, 0.7f, 1f);
+                    btn.colors = cb;
+                }
+                
+                btn.onClick.AddListener(() => OnKeyPress(k));
             }
         }
 
@@ -171,7 +189,10 @@ void AddClickListener(InputField field)
         b.transform.SetParent(parent, false);
         Button btn = b.AddComponent<Button>();
         Image img = b.AddComponent<Image>();
-        img.color = Color.white;
+        
+        // Light colored buttons matching game theme
+        img.color = new Color(1f, 1f, 1f, 1f); // White buttons
+        
         RectTransform rect = b.GetComponent<RectTransform>();
         rect.sizeDelta = new Vector2(size, size);
         rect.anchoredPosition = pos;
@@ -182,13 +203,21 @@ void AddClickListener(InputField field)
         txt.text = label;
         txt.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
         txt.alignment = TextAnchor.MiddleCenter;
-        txt.fontSize = 24;
-        txt.color = Color.black;
+        txt.fontSize = 16; // Compact font size
+        txt.fontStyle = FontStyle.Bold;
+        txt.color = new Color(0.2f, 0.2f, 0.25f, 1f); // Dark text for readability
         RectTransform tRect = txt.GetComponent<RectTransform>();
         tRect.sizeDelta = new Vector2(size, size);
 
+        // Button colors matching light game theme
         ColorBlock cb = btn.colors;
-        cb.highlightedColor = new Color(0.8f, 0.8f, 0.8f);
+        cb.normalColor = new Color(1f, 1f, 1f, 1f); // White
+        cb.highlightedColor = new Color(0.85f, 0.9f, 0.95f, 1f); // Light blue-gray
+        cb.pressedColor = new Color(0.75f, 0.8f, 0.85f, 1f);
+        cb.selectedColor = new Color(0.9f, 0.92f, 0.96f, 1f);
+        cb.disabledColor = new Color(0.7f, 0.7f, 0.7f, 0.5f);
+        cb.colorMultiplier = 1f;
+        cb.fadeDuration = 0.2f; // Smooth color transitions
         btn.colors = cb;
 
         return b;
@@ -221,6 +250,8 @@ void AddClickListener(InputField field)
     void UpdateCapsText()
     {
         if (capsStatus != null)
-            capsStatus.text = caps ? "Caps Lock is now ON" : "Caps Lock is now off";
+        {
+            capsStatus.text = caps ? "● CAPS ON" : "○ Caps Off";
+        }
     }
 }
